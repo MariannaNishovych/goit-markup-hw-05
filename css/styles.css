@@ -607,8 +607,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
 }
 
-.modal-button-icon:hover,
-.modal-button-icon:focus {
+.modal-button:hover > .modal-button-icon,
+.modal-button:focus > .modal-button-icon {
     fill: #ffffff;
 }
 
@@ -629,8 +629,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-bottom: 16px;
 }
 
-.modal-form-box .box-textarea {
-    margin-bottom: 16px;
+.modal-form-box {
+    margin-bottom: 8px;
 }
 
 .modal-label {
@@ -668,6 +668,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-box-textarea{
+    margin-bottom: 16px;
+}
 
 .modal-textarea {
 font-weight: 400;
